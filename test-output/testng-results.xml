@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-10T13:07:36 IST" name="All Module" finished-at="2024-04-10T13:08:59 IST" duration-ms="83161">
+    <groups>
+    </groups>
+    <test started-at="2024-04-10T13:07:36 IST" name="Regression Test" finished-at="2024-04-10T13:08:59 IST" duration-ms="83161">
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.LoginTests@4c163e3]" started-at="2024-04-10T13:08:11 IST" name="launchApplication" finished-at="2024-04-10T13:08:14 IST" duration-ms="2767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginValidUsernameAndPassword()[pri:1, instance:tests.LoginTests@4c163e3]" started-at="2024-04-10T13:08:14 IST" name="LoginValidUsernameAndPassword" finished-at="2024-04-10T13:08:16 IST" duration-ms="1599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidUsernameAndPassword -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:tests.LoginTests@4c163e3]" started-at="2024-04-10T13:08:16 IST" name="closebrowser" finished-at="2024-04-10T13:08:16 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.LoginTests@4c163e3]" started-at="2024-04-10T13:08:16 IST" name="launchApplication" finished-at="2024-04-10T13:08:18 IST" duration-ms="2177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginValidUsernameAndInvalidPassword()[pri:2, instance:tests.LoginTests@4c163e3]" started-at="2024-04-10T13:08:18 IST" name="LoginValidUsernameAndInvalidPassword" finished-at="2024-04-10T13:08:19 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:tests.LoginTests@4c163e3]" started-at="2024-04-10T13:08:19 IST" name="closebrowser" finished-at="2024-04-10T13:08:19 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.LoginTests@4c163e3]" started-at="2024-04-10T13:08:19 IST" name="launchApplication" finished-at="2024-04-10T13:08:21 IST" duration-ms="2004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginInvalidUsernameAndvalidPassword()[pri:3, instance:tests.LoginTests@4c163e3]" started-at="2024-04-10T13:08:21 IST" name="LoginInvalidUsernameAndvalidPassword" finished-at="2024-04-10T13:08:21 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInvalidUsernameAndvalidPassword -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:tests.LoginTests@4c163e3]" started-at="2024-04-10T13:08:21 IST" name="closebrowser" finished-at="2024-04-10T13:08:21 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.LoginTests@4c163e3]" started-at="2024-04-10T13:08:21 IST" name="launchApplication" finished-at="2024-04-10T13:08:23 IST" duration-ms="1883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginInvalidUsernameAndInvalidPassword()[pri:4, instance:tests.LoginTests@4c163e3]" started-at="2024-04-10T13:08:23 IST" name="LoginInvalidUsernameAndInvalidPassword" finished-at="2024-04-10T13:08:24 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInvalidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:tests.LoginTests@4c163e3]" started-at="2024-04-10T13:08:24 IST" name="closebrowser" finished-at="2024-04-10T13:08:24 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- tests.LoginTests -->
+      <class name="tests.AddContactsTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.AddContactsTests@4201c465]" started-at="2024-04-10T13:08:39 IST" name="launchApplication" finished-at="2024-04-10T13:08:41 IST" duration-ms="2194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="AddContact(java.util.HashMap)[pri:0, instance:tests.AddContactsTests@4201c465]" started-at="2024-04-10T13:08:41 IST" name="AddContact" data-provider="getdata" finished-at="2024-04-10T13:08:45 IST" duration-ms="4128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=panda, phone=1234567891, work=testing, nickname=pandu, description=just testing, email=test@testing.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddContact -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:tests.AddContactsTests@4201c465]" started-at="2024-04-10T13:08:45 IST" name="closebrowser" finished-at="2024-04-10T13:08:45 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.AddContactsTests@4201c465]" started-at="2024-04-10T13:08:45 IST" name="launchApplication" finished-at="2024-04-10T13:08:47 IST" duration-ms="1733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="AddContact(java.util.HashMap)[pri:0, instance:tests.AddContactsTests@4201c465]" started-at="2024-04-10T13:08:47 IST" name="AddContact" data-provider="getdata" finished-at="2024-04-10T13:08:50 IST" duration-ms="2504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=harpic panda, phone=14567897895, work=testing, nickname=M, description=just testing, email=panda@testing.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddContact -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:tests.AddContactsTests@4201c465]" started-at="2024-04-10T13:08:50 IST" name="closebrowser" finished-at="2024-04-10T13:08:50 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.AddContactsTests@4201c465]" started-at="2024-04-10T13:08:50 IST" name="launchApplication" finished-at="2024-04-10T13:08:51 IST" duration-ms="1798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="AddContact(java.util.HashMap)[pri:0, instance:tests.AddContactsTests@4201c465]" started-at="2024-04-10T13:08:51 IST" name="AddContact" data-provider="getdata" finished-at="2024-04-10T13:08:55 IST" duration-ms="3660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstname=red panda, phone=000111111, work=testing, nickname=red, description=just testing, email=red@testing.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddContact -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:tests.AddContactsTests@4201c465]" started-at="2024-04-10T13:08:55 IST" name="closebrowser" finished-at="2024-04-10T13:08:55 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="softassert()[pri:0, instance:tests.AddContactsTests@4201c465]" started-at="2024-04-10T13:08:59 IST" name="softassert" finished-at="2024-04-10T13:08:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- softassert -->
+      </class> <!-- tests.AddContactsTests -->
+      <class name="tests.SettingTests">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.SettingTests@6440112d]" started-at="2024-04-10T13:07:36 IST" name="launchApplication" finished-at="2024-04-10T13:08:07 IST" duration-ms="30887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ChangePasswordTest()[pri:0, instance:tests.SettingTests@6440112d]" started-at="2024-04-10T13:08:07 IST" name="ChangePasswordTest" finished-at="2024-04-10T13:08:11 IST" duration-ms="4916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePasswordTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:tests.SettingTests@6440112d]" started-at="2024-04-10T13:08:11 IST" name="closebrowser" finished-at="2024-04-10T13:08:11 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- tests.SettingTests -->
+      <class name="tests.ViewContactTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.ViewContactTest@65987993]" started-at="2024-04-10T13:08:24 IST" name="launchApplication" finished-at="2024-04-10T13:08:25 IST" duration-ms="1720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="UpdateContactTest()[pri:1, instance:tests.ViewContactTest@65987993]" started-at="2024-04-10T13:08:25 IST" name="UpdateContactTest" finished-at="2024-04-10T13:08:30 IST" duration-ms="4453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateContactTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:tests.ViewContactTest@65987993]" started-at="2024-04-10T13:08:30 IST" name="closebrowser" finished-at="2024-04-10T13:08:30 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.ViewContactTest@65987993]" started-at="2024-04-10T13:08:30 IST" name="launchApplication" finished-at="2024-04-10T13:08:35 IST" duration-ms="5145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="DeleteContactTest()[pri:2, instance:tests.ViewContactTest@65987993]" started-at="2024-04-10T13:08:35 IST" name="DeleteContactTest" finished-at="2024-04-10T13:08:39 IST" duration-ms="3695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteContactTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:tests.ViewContactTest@65987993]" started-at="2024-04-10T13:08:39 IST" name="closebrowser" finished-at="2024-04-10T13:08:39 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- tests.ViewContactTest -->
+      <class name="tests.RegistrationEndToEndTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.RegistrationEndToEndTest@5b799640]" started-at="2024-04-10T13:08:55 IST" name="launchApplication" finished-at="2024-04-10T13:08:58 IST" duration-ms="2491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="RegistrationTest()[pri:0, instance:tests.RegistrationEndToEndTest@5b799640]" started-at="2024-04-10T13:08:58 IST" name="RegistrationTest" finished-at="2024-04-10T13:08:59 IST" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:tests.RegistrationEndToEndTest@5b799640]" started-at="2024-04-10T13:08:59 IST" name="closebrowser" finished-at="2024-04-10T13:08:59 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- tests.RegistrationEndToEndTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- All Module -->
+</testng-results>
